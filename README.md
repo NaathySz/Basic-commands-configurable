@@ -17,3 +17,6 @@ PLUGIN PURPOSE: i know this is very basic, but when i started to configure my se
 Maybe it's so easy to do that people don't even think about it?
 
 Whatever, i hope i can help someone. :)
+
+My Discord: Nathy#0666  
+My Steam: https://steamcommunity.com/id/nathyzinhaa  
