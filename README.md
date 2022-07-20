@@ -4,7 +4,7 @@ Basicly, this plugin will help some server owners to add links he want and adds 
 You can put the links you want in translations folder, change colors and messages.
 The plugin will generate a cfg file with the cvar to enable/disable welcome message. 0 = disable / 1 = enable
 
-Commands: all basics the servers need: !group, !discord, !website, !ip and !owner. I've made some variables like !site, !serverip, !steamgroup, !steam, etc.
+Commands: all basics the servers need: !group, !discord, !website, !ip and !owner. I've made some variables like !site, !serverip, !steamgroup, !steam, etc.  
 You can request anything here.
 
 --
