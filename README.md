@@ -22,7 +22,7 @@ All basics the servers need
 * **!ip**
 * **!site**  
 
-And its variable, like  
+And some variables, like  
 * **!website**
 * **!serverip**
 * **!steamgroup**  
