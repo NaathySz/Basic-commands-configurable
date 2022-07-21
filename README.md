@@ -10,7 +10,7 @@ Basicly, this plugin will help some server owners to add links he want and adds 
 * **sm_basiccmds_discord 1/0** - Enable/Disable !discord commands (0 = Disable, 1 = Enable)
 * **sm_basiccmds_site 1/0** - Enable/Disable !site commands (0 = Disable, 1 = Enable)  
 
-You can put the links you want in translations folder, change colors and messages.
+You can put the links you want in translations folder, change colors and messages.  
 The plugin will generate a cfg file with the cvar to enable/disable welcome message. 0 = disable / 1 = enable
 ***
 ### Commands 
