@@ -1,6 +1,7 @@
 # Basic Commands Configurable
 ### Description
-Basicly, this plugin will help some server owners to add links he want and adds a welcome message. It is very very very simple, i did it for newer peoples on server configuration/sourcemod.
+Basicly, this plugin will help some server owners to add links he want and adds a welcome message.   
+It is very very very simple, i did it for newer peoples on server configuration/sourcemod.
 ***
 ### ConVars/Info
 * **sm_basiccmds_welcome 1/0** - Enable/Disable welcome message (0 = Disable, 1 = Enable)
@@ -14,8 +15,18 @@ You can put the links you want in translations folder, change colors and message
 The plugin will generate a cfg file with the cvar to enable/disable welcome message. 0 = disable / 1 = enable
 ***
 ### Commands 
-all basics the servers need: **!group**, **!discord**, **!website**, **!ip** and **!owner**. I've made some variables like **!site**, **!serverip**, **!steamgroup**, **!steam**, **etc**.  
+All basics the servers need
+* **!group**
+* **!owner**
+* **!discord**
+* **!ip**
+* **!site**  
 
+And its variable, like  
+* **!website**
+* **!serverip**
+* **!steamgroup**  
+etc.
 ***
 
 ### PLUGIN PURPOSE 
