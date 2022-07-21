@@ -12,7 +12,7 @@ It is very very very simple, i did it for newer peoples on server configuration/
 * **sm_basiccmds_site 1/0** - Enable/Disable !site commands (0 = Disable, 1 = Enable)  
 
 You can put the links you want in translations folder, change colors and messages.  
-The plugin will generate a cfg file with the cvar to enable/disable welcome message. 0 = disable / 1 = enable
+The plugin will generate a cfg file with the cvars.
 ***
 ### Commands 
 All basics the servers need
