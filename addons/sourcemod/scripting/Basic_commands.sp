@@ -6,8 +6,13 @@
 #pragma newdecls required
 
 ConVar BC_WelcomeMessage;
+ConVar BC_Discord;
+ConVar BC_Site;
+ConVar BC_Group;
+ConVar BC_Owner;
+ConVar BC_Ip;
 
-#define PLUGIN_VERSION "1.0"
+#define PLUGIN_VERSION "1.1"
 
 public Plugin myinfo = 
 {
@@ -21,6 +26,11 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
 	BC_WelcomeMessage = CreateConVar("sm_basiccmds_welcome", "1", "Enable/Disable welcome message");
+	BC_Discord = CreateConVar("sm_basiccmds_discord", "1", "Enable/Disable Discord command");
+	BC_Site = CreateConVar("sm_basiccmds_site", "1", "Enable/Disable Site command");
+	BC_Group = CreateConVar("sm_basiccmds_group", "1", "Enable/Disable Group command");
+	BC_Owner = CreateConVar("sm_basiccmds_owner", "1", "Enable/Disable Owner Command");
+	BC_Ip = CreateConVar("sm_basiccmds_ip", "1", "Enable/Disable IP command");
 	
 	RegConsoleCmd("sm_discord", Command_discord);
 	RegConsoleCmd("sm_site", Command_site);
@@ -58,21 +68,36 @@ public Action msg(Handle timer, any client)
 }
 
 public Action Command_discord(int client, int args){
+	if(GetConVarInt(BC_Discord) == 1)
+	{
 	CPrintToChat(client, "%t", "Discord link");
+	}
 }
 
 public Action Command_site(int client, int args){
+	if(GetConVarInt(BC_Site) == 1)
+	{
 	CPrintToChat(client, "%t", "Website link");
+	}
 }
 
 public Action Command_group(int client, int args){
+	if (GetConVarInt(BC_Group) == 1)
+	{
 	CPrintToChat(client, "%t", "Steam Group link");
+	}
 }
 
 public Action Command_owner(int client, int args){
+	if (GetConVarInt(BC_Owner) == 1)
+	{
 	CPrintToChat(client, "%t", "Owner Profile link");
+	}
 }
 
 public Action Command_ip(int client, int args){
+	if (GetConVarInt(BC_Ip) == 1)
+	{
 	CPrintToChat(client, "%t", "Server ip");
+	}
 }
