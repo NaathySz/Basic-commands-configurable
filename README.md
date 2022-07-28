@@ -1,3 +1,5 @@
+# **If you want put your own and unlimited commands, check [this](https://github.com/NaathySz/Create-your-own-commands)**
+***
 # Basic Commands Configurable
 ### Description
 Basicly, this plugin will help some server owners to add links he want and adds a welcome message.   
@@ -38,5 +40,4 @@ Maybe it's so easy to do that people don't even think about it?
 Whatever, i hope i can help someone. :)  
 **Feel free to request anything**
 
-My Discord: Nathy#0666  
-My Steam: https://steamcommunity.com/id/nathyzinhaa  
+[Discord](https://discord.com/users/476946479110684683) | [Steam](https://steamcommunity.com/id/nathyzinhaa)
