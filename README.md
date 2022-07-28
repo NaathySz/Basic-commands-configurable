@@ -38,6 +38,7 @@ I know this is very basic, but when i started to configure my server, I didn't e
 Maybe it's so easy to do that people don't even think about it?
 
 Whatever, i hope i can help someone. :)  
+
 **Feel free to request anything**
 
 [Discord](https://discord.com/users/476946479110684683) | [Steam](https://steamcommunity.com/id/nathyzinhaa)
